@@ -28,7 +28,7 @@ def search_student():
                     print("student not found")
                     
 while True:
-    print("\n1. add student\n2. view all\n. search\n4. exit")
+    print("\n1. add student\n2. view all\n3. search\n4. exit")
     ch = input("enter choice: ")
     if ch == '1':
         add_student()
