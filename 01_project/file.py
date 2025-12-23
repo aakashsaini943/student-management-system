@@ -26,6 +26,9 @@ def search_student():
                 found = True
                 if not found:
                     print("student not found")
+
+                    # ADD INPUT DETAILS
+                
                     
 while True:
     print("\n1. add student\n2. view all\n3. search\n4. exit")
