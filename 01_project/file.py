@@ -31,7 +31,7 @@ def search_student():
                 
                     
 while True:
-    print("\n1. add student\n2. view all\n3. search\n4. exit")
+    print("\n1. add student\n2. view all \n3. search students\n4. exit")
     ch = input("enter choice: ")
     if ch == '1':
         add_student()
@@ -42,7 +42,7 @@ while True:
     elif ch == '4':
         break
     else:
-        print("invalid choice")
+        print("invalid choice try again")
 
         
     
